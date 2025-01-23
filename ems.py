@@ -73,7 +73,7 @@ class EmployeeManagementSystem:
             print("Database connection closed")
 
 def main():
-    ems = EmployeeManagementSystem("localhost", "root", "Letsdowork-1234", "employee_db")
+    ems = EmployeeManagementSystem("localhost", "your_username", "your_password", "employee_db")
 
     while True:
         print("\nEmployee Management System")
