@@ -134,7 +134,7 @@ class EmployeeManagementUI:
         master.geometry("1200x700")
 
         # Create EMS instance
-        self.ems = EmployeeManagementSystem("localhost", "root", "Letsdowork-1234", "employee_db")
+        self.ems = EmployeeManagementSystem("localhost", "your_username", "your_password", "employee_db")
 
         # Create Treeview
         columns = ("ID", "Name", "Email", "Phone", "Department", "Job Title", 
